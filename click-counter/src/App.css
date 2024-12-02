@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, hsl(0, 0%, 0%), hsl(36, 93%, 61%), hsl(0, 0%, 0%));
+}
+
+.Container {
+  width: 300px;
+  height: 600px;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(hsl(0, 0%, 0%), hsl(36, 93%, 61%), hsl(0, 0%, 0%));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#Display {
+  color: white;
+  font-family: Helvetica;
+  font-size: 8.5em;
+  display: block;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(41, 100%, 70%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid hsl(41, 97%, 69%);
+  overflow: hidden;
+}
+
+button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+button img {
+  display: block;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+}
+
+button:hover {
+  background-color: hsl(41, 93%, 58%);
+}
+
+button:active {
+  transform: scale(0.95);
+}
